@@ -8,7 +8,19 @@
 module.exports = {
 
   attributes: {
-
+  	// I add 3 fields name, email, state in customer table   nov-7
+  	name: {
+  		type: 'string',
+  		required: true
+  	},
+  	email: {
+  		type: 'string',
+  		email: true
+  	},
+  	state: {
+  		type: 'string'
+  	}
+  	// end of my add
   }
 };
 
